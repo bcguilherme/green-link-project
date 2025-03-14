@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste do Componente CarbonEmissionsCard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      background-color: #f3f4f6;
+      padding: 2rem;
+    }
+    .card {
+      background-color: white;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+      max-width: 24rem;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+    }
+    .company-name {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #1f2937;
+    }
+    .badge {
+      background-color: #dcfce7;
+      color: #166534;
+      font-size: 0.75rem;
+      font-weight: 500;
+      padding: 0.25rem 0.625rem;
+      border-radius: 9999px;
+    }
+    .emissions-value {
+      font-size: 1.875rem;
+      font-weight: 700;
+      color: #111827;
+      margin-bottom: 0.25rem;
+    }
+    .emissions-unit {
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: #6b7280;
+    }
+    .emissions-label {
+      font-size: 0.875rem;
+      color: #6b7280;
+      margin-bottom: 1rem;
+    }
+    .card-footer {
+      padding-top: 1rem;
+      border-top: 1px solid #e5e7eb;
+    }
+    .info-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.5rem;
+    }
+    .info-label {
+      font-size: 0.875rem;
+      color: #6b7280;
+    }
+    .info-value {
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: #374151;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mx-auto max-w-7xl">
+    <h1 class="text-3xl font-bold text-gray-900 mb-8 text-center">
+      Relatórios de Emissões de Carbono
+    </h1>
+    
+    <div class="mb-10">
+      <h2 class="text-xl font-semibold text-gray-800 mb-4">Relatório em Destaque</h2>
+      
+      <!-- Card de Emissões de Carbono -->
+      <div class="card hover:shadow-lg transition-shadow duration-300">
+        <div class="card-header">
+          <h3 class="company-name">Empresa Verde Ltda</h3>
+          <div class="badge">Green Link</div>
+        </div>
+        
+        <div>
+          <div class="emissions-value">
+            1.250,75 <span class="emissions-unit">tCO₂e</span>
+          </div>
+          <p class="emissions-label">Total de emissões de CO₂</p>
+        </div>
+        
+        <div class="card-footer">
+          <div class="info-row">
+            <span class="info-label">Data do relatório</span>
+            <span class="info-value">15/10/2023</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">ID do relatório</span>
+            <span class="info-value">REL-2023-10-15-001</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div>
+      <h2 class="text-xl font-semibold text-gray-800 mb-4">Relatórios Recentes</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Outros cards seriam inseridos aqui -->
+      </div>
+    </div>
+  </div>
+</body>
+</html> 
