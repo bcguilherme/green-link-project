@@ -2,6 +2,12 @@
 
 Plataforma digital para gestão ambiental, certificação sustentável e compensação de carbono.
 
+## Status do Projeto
+
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-brightgreen)
+![Versão](https://img.shields.io/badge/Versão-1.0.0-blue)
+![Deploy](https://img.shields.io/badge/Deploy-Ativo-success)
+
 ## Visão Geral
 
 Green Link é uma plataforma inovadora que conecta empresas, organizações e indivíduos a soluções sustentáveis, permitindo:
@@ -80,4 +86,11 @@ Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para d
 
 ## Contato
 
-Para mais informações, entre em contato através do email: contato@greenlink.com.br 
+Para mais informações, entre em contato através do email: contato@greenlink.com.br
+
+## Últimas Atualizações
+
+- **16/03/2024**: Deploy inicial no GitHub
+- Implementação do mapa interativo com Google Maps
+- Correção de bugs na visualização de dados ambientais
+- Melhorias na interface do usuário 
